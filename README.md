@@ -2,7 +2,7 @@
 
 ### Current Testbench Architecture
 
-![Testbench Architecture](https://github.com/unlim-int-soumya/lc4-vip/blob/main/lc4_pipeline%20v1/docs/Testbench%20Architecture.png)
+![Testbench Architecture](https://github.com/unlim-int-soumya/cpu_verification_IP/blob/main/Testbench%20Architecture.png)
 
 ## Introduction
 This project was part of my independent study for Masters credit in ESE 5990, where efforts were made to develop verification IPs for verifying advanced LC4 processors. The core objective of the project was to develop a scalable and reusable Verification IP tailored for a pipelined superscalar LC4 Processor. During spring 2023, I took a course called Computer Organization and Design (CIS 5710), where I designed a pipelined 2-way superscalar processor using Verilog. In that RTL, it was verified using a simple testbench and trace files provided by the instructor. However, to exert more control over instruction generation, make the verification process more insightful, and enhance flexibility, there was a need to develop the test environments UVCs using SystemVerilog-UVM.
